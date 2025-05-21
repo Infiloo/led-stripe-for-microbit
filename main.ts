@@ -44,6 +44,7 @@ function Pulse () {
         }
     }
 }
+let LedMode = 0
 let farbe = 0
 let richtung = 0
 let warte = 0
@@ -61,8 +62,18 @@ richtung = 1
 farbe = 0
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
-        Regenbogen()
+        LedMode = 1
     } else if (input.buttonIsPressed(Button.B)) {
+        LedMode = 2
+    }
+})
+basic.forever(function () {
+    if (LedMode == 1) {
+        Regenbogen()
+    }
+})
+basic.forever(function () {
+    if (LedMode == 2) {
         Pulse()
     }
 })
