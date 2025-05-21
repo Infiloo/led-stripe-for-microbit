@@ -1,5 +1,4 @@
-
-Follow the creator: https://guns.lol/infiloo
+Follow the creator: [https://guns.lol/infiloo](https://guns.lol/infiloo)
 
 > Open this page at [https://infiloo.github.io/led-ring/](https://infiloo.github.io/led-ring/)
 
