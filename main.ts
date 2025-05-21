@@ -57,7 +57,7 @@ let LEDs = 144
 strip = neopixel.create(DigitalPin.P0, LEDs, NeoPixelMode.RGB)
 let Mode = 0
 i = 0
-warte = 10
+warte = 15
 richtung = 1
 farbe = 0
 basic.forever(function () {
