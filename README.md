@@ -1,4 +1,6 @@
 
+Follow the creator: https://guns.lol/infiloo
+
 > Open this page at [https://infiloo.github.io/led-ring/](https://infiloo.github.io/led-ring/)
 
 ## Use as Extension
