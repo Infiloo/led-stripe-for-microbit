@@ -62,9 +62,20 @@ richtung = 1
 farbe = 0
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
+        // Rainbow Mode
         LedMode = 1
     } else if (input.buttonIsPressed(Button.B)) {
+        // Pulse Mode
         LedMode = 2
+    }
+    if (input.buttonIsPressed(Button.AB)) {
+        // Flicker Mode
+        LedMode = 3
+    }
+})
+basic.forever(function () {
+    if (LedMode == 2) {
+        Pulse()
     }
 })
 basic.forever(function () {
@@ -73,7 +84,7 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (LedMode == 2) {
-        Pulse()
+    if (LedMode == 3) {
+        flakernonline(1)
     }
 })
