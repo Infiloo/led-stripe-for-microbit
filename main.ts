@@ -60,6 +60,7 @@ i = 0
 warte = 15
 richtung = 1
 farbe = 0
+basic.showIcon(IconNames.SmallDiamond)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         // Rainbow Mode
